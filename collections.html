@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order</p>
+        <div class="space-div"></div>
+        <i class="fa-solid fa-xmark fa-beat-fade" id="close"></i>
+    </div>
+
+    <div class="nav">
+        <div class="nav-title">
+            <h2>NOSTRA</h2>
+        </div>
+        <div class="nav-elements">
+            <a href="index.html">Home</a>
+            <a href="#new-arrival" class="scroll">Arrival</a>
+            <a href="#most" class="mosty">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="conduct.html">Contact Us</a>
+        </div>
+        <div class="nav-more">
+            <i id="navmore-i" class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+        <!-- --------------------------------------------side-navbar---------------------------------------------- -->
+        <div>
+
+     
+
+            <div class="sidenav-container">
+        
+        
+                <div class="nav-close">
+                    <i class="fa-solid fa-x" id="sidenav-close"></i>
+        
+                </div>
+        
+        
+        
+                <div class="sidenav-elements">
+                    <a href="index.html" id="mov">Home</a>
+                    <a href="#new-arrival" class="scroll" id="mov">Arrival</a>
+                    <a href="#most" class="mosty" id="mov">Most Wanted</a>
+                    <a href="collections.html" id="mov">Collections</a>
+                    <a href="conduct.html" id="mov">Conduct Us</a>
+                </div>
+        
+        
+        
+        
+        
+        
+            </div>
+
+    <div class="collection-container">
+        <div class="left-container">
+            <div class="left-checkbox">
+                <h1>Occasion</h1>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="summer"> Summer<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="party"> Party<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="beach"> Beach<br>
+            </div>
+
+            <div class="left-checkbox">
+                <h1>Colors</h1>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="red"> Red<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="blue"> Blue<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="white"> White<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="green"> Green<br>
+            </div>
+
+            <div class="left-checkbox">
+                <h1>Arrivals</h1>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="new"> New<br>
+                <input type="checkbox" name="option" class="radio-input" onclick="checking()" value="old"> Old<br>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="right-input">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="images">
+                <div class="image" data-tags="summer,red,new">
+                    <img src="red.jpg" alt="">
+                    <div class="images-text">
+                        <b>Summer floral cotton</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="party,blue,new">
+                    <img src="blue.jpg" alt="">
+                    <div class="images-text">
+                        <b>Party wear</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="beach,white,old">
+                    <img src="white.jpg" alt="">
+                    <div class="images-text">
+                        <b>Beach wear</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="summer,red,new">
+                    <img src="s8.jpg" alt="">
+                    <div class="images-text">
+                        <b>Summer cloth</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="party,blue,new">
+                    <img src="s3.jpg" alt="">
+                    <div class="images-text">
+                        <b>Party cloth</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="beach,white,old">
+                    <img src="s7.jpg" alt="">
+                    <div class="images-text">
+                        <b>White Shirt</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="summer,red,new">
+                    <img src="s1.jpg" alt="">
+                    <div class="images-text">
+                        <b>Red shirt</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="party,blue,new">
+                    <img src="bluepant.jpg" alt="">
+                    <div class="images-text">
+                        <b>Blue pant</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="summer,red,new">
+                    <img src="red2.jpg" alt="">
+                    <div class="images-text">
+                        <b>Summer shirt</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="beach,white,old">
+                    <img src="summer.jpg" alt="">
+                    <div class="images-text">
+                        <b>white cloth</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="summer,red,new">
+                    <img src="s4.jpg" alt="">
+                    <div class="images-text">
+                        <b>summer cloth</b>
+                        <p>250</p>
+                    </div>
+                </div>
+                <div class="image" data-tags="beach,white,old">
+                    <img src="white1.jpg" alt="">
+                    <div class="images-text">
+                        <b>Beach wear</b>
+                        <p>250</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news-text-container">
+        <b>Join our News Letter</b>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more
+
+        </p>
+        <input type="text"><br>
+        <button>Subscribe</button>
+
+    </div>
+
+    <div class="footer-container">
+        <b>Nostra</b>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interested.</p>
+        <i class="fa-brands fa-instagram" id="insta"></i>
+        <i class="fa-brands fa-x-twitter" id="twit"></i>
+        <i class="fa-brands fa-facebook" id="face"></i>
+        <p>@ 2023 Nostra.com</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
